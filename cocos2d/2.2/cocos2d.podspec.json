@@ -1,0 +1,45 @@
+{
+  "name": "cocos2d",
+  "version": "2.2",
+  "license": "MIT",
+  "authors": {
+    "Ricardo Quesada": "ricardoquesada@gmail.com"
+  },
+  "homepage": "http://www.cocos2d-iphone.org",
+  "summary": "cocos2d for iPhone is a framework for building 2D games, demos, and other graphical/interactive applications.",
+  "source": {
+    "git": "https://github.com/cocos2d/cocos2d-iphone-classic.git",
+    "tag": "v2.2-release"
+  },
+  "source_files": [ "cocos2d/**/*.{h,m,mm,c}" ],
+  "frameworks": [ "OpenGLES", "QuartzCore", "GameKit", "CoreText" ],
+  "library": "z",
+  "prefix_header_contents": "\n#define CC_ENABLE_GL_STATE_CACHE 1\n",
+  "header_mappings_dir": "cocos2d",
+  "requires_arc": false,
+  "subspecs": [
+    {
+      "name": "libpng",
+      "source_files": [ "external/libpng/*.{h,c}" ],
+      "exclude_files": [ "external/libpng/pngtest.c", "external/libpng/example.c" ]
+    },
+    {
+      "name": "kazmath",
+      "source_files": [ "external/kazmath/src/**/*.{c,h}", "external/kazmath/include/**/*.{c,h}" ],
+      "header_mappings_dir": "external/kazmath/include"
+    },
+    {
+      "name": "CocosDenshion",
+      "source_files": [ "CocosDenshion/*.{h,m}" ],
+      "frameworks": [ "OpenAL", "AVFoundation", "AudioToolbox" ]
+    },
+    {
+      "name": "CCBReader",
+      "source_files" = [
+        "external/CCBReader/CCBReader/*.{h,m}",
+        "external/CCBReader/CCScrollView/*.{h,m}",
+        "external/CCBReader/CCControlExtension/**/*.{h,m}" ],
+      "exclude_files" = [ "external/CCBReader/CCControlExtension/CCControl/CCControlSwitch.{h,m}" ]
+    }
+  ]
+}
