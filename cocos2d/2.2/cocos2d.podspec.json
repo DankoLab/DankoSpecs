@@ -13,7 +13,7 @@
   },
   "source_files": [ "cocos2d/**/*.{h,m,mm,c}" ],
   "frameworks": [ "OpenGLES", "QuartzCore", "GameKit", "CoreText" ],
-  "library": "z",
+  "libraries": "z",
   "prefix_header_contents": "\n#define CC_ENABLE_GL_STATE_CACHE 1\n",
   "header_mappings_dir": "cocos2d",
   "requires_arc": false,
