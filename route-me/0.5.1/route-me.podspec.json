@@ -21,7 +21,7 @@
   "exclude_files": [
     "MapView/Map/RMCloudMadeMapSource.{h,m}",
     "MapView/Map/FMDB/fmdb.m",
-    "MapView/Map/RMTiledLayerController.{h,m}"
+    "MapView/Map/RMTiledLayerController.m"
   ],
   "frameworks": [
     "CoreFoundation",
