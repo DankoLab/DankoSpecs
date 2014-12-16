@@ -26,6 +26,6 @@
   ],
   "libraries": [
     "sqlite3"
-  ]
+  ],
   "resources": "MapView/Map/Resources/*.png"
 }
