@@ -18,6 +18,7 @@
     "MapView/**/*.{h,m,c}",
     "Proj4/*.{h,c}"
   ],
+  "exclude_files": [ "MapView/Map/RMCloudMadeMapSource.{h,m}" ],
   "frameworks": [
     "CoreFoundation",
     "CoreLocation",
