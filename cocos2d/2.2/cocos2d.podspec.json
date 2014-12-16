@@ -35,11 +35,11 @@
     },
     {
       "name": "CCBReader",
-      "source_files" = [
+      "source_files": [
         "external/CCBReader/CCBReader/*.{h,m}",
         "external/CCBReader/CCScrollView/*.{h,m}",
         "external/CCBReader/CCControlExtension/**/*.{h,m}" ],
-      "exclude_files" = [ "external/CCBReader/CCControlExtension/CCControl/CCControlSwitch.{h,m}" ]
+      "exclude_files": [ "external/CCBReader/CCControlExtension/CCControl/CCControlSwitch.{h,m}" ]
     }
   ]
 }
