@@ -15,10 +15,14 @@
   "public_header_files": "MapView/Map/*.h",
   "private_header_files": "Proj4/proj_api.h",
   "source_files": [
-    "MapView/**/*.{h,m,c}",
+    "MapView/Map/*.{h,m,c}",
     "Proj4/*.{h,c}"
   ],
-  "exclude_files": [ "MapView/Map/RMCloudMadeMapSource.{h,m}" ],
+  "exclude_files": [
+    "MapView/Map/RMCloudMadeMapSource.{h,m}",
+    "MapView/Map/FMDB/fmdb.m",
+    "MapView/Map/RMTiledLayerController.{h,m}"
+  ],
   "frameworks": [
     "CoreFoundation",
     "CoreLocation",
