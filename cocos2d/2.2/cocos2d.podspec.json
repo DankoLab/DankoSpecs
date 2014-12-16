@@ -32,15 +32,6 @@
       "name": "CocosDenshion",
       "source_files": [ "CocosDenshion/*.{h,m}" ],
       "frameworks": [ "OpenAL", "AVFoundation", "AudioToolbox" ]
-    },
-    {
-      "name": "CCBReader",
-      "source": { "git": "https://github.com/cocos2d/CCBReader.git" },
-      "source_files": [
-        "CCBReader/*.{h,m}",
-        "CCScrollView/*.{h,m}",
-        "CCControlExtension/**/*.{h,m}" ],
-      "exclude_files": [ "external/CCBReader/CCControlExtension/CCControl/CCControlSwitch.{h,m}" ]
     }
   ]
 }
