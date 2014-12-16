@@ -1,0 +1,31 @@
+{
+  "name": "route-me",
+  "version": "0.5.1",
+  "license": "MIT",
+  "summary": "Open street maps for iOS.",
+  "source": {
+    "git": "https://github.com/route-me/route-me.git",
+    "tag": "routeme-0.5.1"
+  },
+  "platforms": {
+    "ios": "6.0"
+  },
+  "requires_arc": false,
+  "prefix_header_file": "MapView/MapView_Prefix.pch",
+  "public_header_files": "MapView/Map/*.h",
+  "private_header_files": "Proj4/proj_api.h",
+  "source_files": [
+    "MapView/**/*.{h,m,c}",
+    "Proj4/*.{h,c}"
+  ],
+  "frameworks": [
+    "CoreFoundation",
+    "CoreLocation",
+    "CoreGraphics",
+    "QuartzCore"
+  ],
+  "libraries": [
+    "sqlite3"
+  ]
+  "resources": "MapView/Map/Resources/*.png"
+}
