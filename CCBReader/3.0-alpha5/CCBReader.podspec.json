@@ -4,7 +4,8 @@
   "license": "MIT",
   "homepage": "http://www.cocosbuilder.com",
   "source": {
-    "git": "https://github.com/cocos2d/CCBReader.git"
+    "git": "https://github.com/cocos2d/CCBReader.git",
+    "commit": "c48260028d"
   },
   "source_files": [
     "CCBReader/*.{h,m}",
