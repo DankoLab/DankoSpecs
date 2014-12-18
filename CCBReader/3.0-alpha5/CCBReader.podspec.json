@@ -1,0 +1,16 @@
+{
+  "name": "CCBReader",
+  "version": "3.0-alpha5",
+  "license": "MIT",
+  "homepage": "http://www.cocosbuilder.com",
+  "source": {
+    "git": "https://github.com/cocos2d/CCBReader.git"
+  },
+  "source_files": [
+    "CCBReader/*.{h,m}",
+    "CCScrollView/*.{h,m}",
+    "CCControlExtension/**/*.{h,m}" ],
+  "exclude_files": [ "CCControlExtension/CCControl/CCControlSwitch.{h,m}" ],
+  "dependencies": { "cocos2d": [] },
+  "requires_arc": false
+}
